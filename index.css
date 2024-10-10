@@ -3,6 +3,10 @@
   flex-direction: column;
   align-items: center;
 }
+body{
+  background-color: black;
+  color: white;
+}
 
 #github-container {
   display: flex;
@@ -11,3 +15,42 @@
 ul {
   list-style: none;
 }
+a{
+  text-decoration: none;
+  color: inherit;
+}
+#user-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  grid-gap: 12px;
+  justify-content: space-around;
+  text-align: center;
+
+}
+#user-list li{
+ width: 20%;
+ background-color:black;
+ color: white;
+ padding: 12px;
+}
+
+#user-list li img{
+  width: 90%;
+  
+}
+#user-list li h4{
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 2% 35% 2% 35%;
+
+}
+#user-list li h6{
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 2% 25% 2% 25%;
+  margin-top: -13px;
+}
+
